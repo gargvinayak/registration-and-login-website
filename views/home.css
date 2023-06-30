@@ -1,0 +1,26 @@
+.container-fluid{
+    height: 60px;
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    margin-left: 40px;
+}
+.row {
+    margin-top: 80px;
+}
+.card-text{
+    font-weight:500;
+    font-size: 16px;
+    text-align: center;
+}
+.card{
+    width: 450px;
+}
+.card-title{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}

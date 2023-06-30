@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    style
+     include registration.css
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link " aria-current="page" href="/">Home</a>
+              <a class="nav-link active" href="/registration">Registration</a>
+              <a class="nav-link" href="/login">Login</a>
+              
+            </div>
+          </div>
+        </div>
+        </nav>
+
+        <div class="outbox">
+            <div class="firstbox"><p class="firstpara">Welcome to My Registration and Login Website</p></div>
+            <div class="secondbox">
+              <div class="heading">
+                <h3>Employee Registration Form</h3>
+              </div>
+              <div class="foembox"></div>
+              <form action="/registration" method="post">
+                <div class="form">
+                  
+                    <div class="inputs">
+                      <input type="text" name="firstname" class="fields" placeholder="First Name *" required >
+                    </div>
+                    <div class="inputs">
+                      <input type="text" name="lastname" class="fields" placeholder="Last Name *" required>
+                    </div>
+                    <div class="inputs">
+                      <input type="email" name="email" class="fields" placeholder="Your Email *" required>
+                    </div>
+                    <div class="inputs">
+                      <input type="radio" class="fields" id="male" name="gender" value="Male" required>
+                      <label for="male">Male</label>
+                      <input type="radio" class="fields" id="female" name="gender" value="Female" required>
+                      <label for="female">Female</label><br>
+                    </div>
+                    <div class="inputs">
+                      <input type="number" name="number" class="fields" placeholder="Your Phone *" required>
+                    </div>
+                    <div class="inputs">
+                      <input type="number" name="age" class="fields" placeholder="Your Age *" required>
+                    </div>
+                    <div class="inputs">
+                      <input type="password" name="password" class="fields" placeholder="Password *" required>
+                    </div>
+                    <div class="inputs">
+                      <input type="password" name="confirmpass" class="fields" placeholder="Confirm Password *" required>
+                    </div>
+                  
+                </div>
+                <div class="btnbox">
+                  <button type="submit" class="btn">Register</button>
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
