@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 3000 ;
 mongoose.set('strictQuery',false);
 
 app.set('view-engine','pug')
+
 app.set('views', path.join(__dirname,'views'))
 app.use('/static',express.static('static'))
 
@@ -80,6 +81,9 @@ res.status(200).render('index.pug',params)
 app.get('/registration',(req,res)=>{  
 res.status(200).render('registration.pug')
 })
+app.get('/google68a62590dbf4b821.html',(req,res)=>{  
+    res.status(200).render('google68a62590dbf4b821.pug')
+    })
 
 app.get('/login',(req,res)=>{
 res.status(200).render('login.pug')
