@@ -80,6 +80,9 @@ res.status(200).render('index.pug',params)
 app.get('/registration',(req,res)=>{  
 res.status(200).render('registration.pug')
 })
+app.get('/google68a62590dbf4b821.html',(req,res)=>{  
+res.status(200).render('google68a62590dbf4b821.html')
+})
 
 app.get('/login',(req,res)=>{
 res.status(200).render('login.pug')
